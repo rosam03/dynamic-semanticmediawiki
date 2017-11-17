@@ -12,7 +12,7 @@ Use this library to authenticate and make meaningful queries to a semantic media
 
 ```
 def main():
-    session = Session('www.mywiki.com', 'janedoe1', 'password123')
+    session = Session('https://www.mywiki.com', 'janedoe1', 'password123')
     if(session): # success
 
         response = session.get_pages('Category:Cities') # tuple of info returned
