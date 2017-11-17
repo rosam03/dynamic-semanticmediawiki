@@ -57,7 +57,7 @@ class session(object):
     conditions : the condition to query on in the database
 
   """
-  def query(self, payload):
+  def get_pages(self, payload):
     if self.auth_state is False and payload['action'] != 'login':
       return False
     else:
