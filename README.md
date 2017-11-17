@@ -8,4 +8,6 @@ Use this library to authenticate and make meaningful queries to a semantic media
 - Internet connection
 
 ## usage
-- `config.yaml` file should contain hostname only, not path or `/api.php` extensions
+- the url passed to the session must contain hostname only, not path nor `/api.php` extensions
+
+
